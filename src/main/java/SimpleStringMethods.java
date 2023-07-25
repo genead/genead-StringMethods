@@ -24,7 +24,8 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char getCharacterAtIndex(String s, int n){
-        return s.charAt(n);
+        char t = s.charAt(n);
+        return t;
     }
 
     /**
